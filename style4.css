@@ -46,6 +46,7 @@ body{
     border: 1px solid #ddd;
     text-align: center;
     margin: 1% 2%;
+    /* display:inline; */
 }
 
 a {

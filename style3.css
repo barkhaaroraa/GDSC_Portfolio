@@ -11,8 +11,8 @@
     font-weight: 400;
     text-align: center;
     padding: 20px 20px;
-    font-size: 150%;
-    font-family: monospace;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 
@@ -21,64 +21,95 @@
     color: #4E4376;
     font-weight: 600;
     font-size: 48px;
+    
 }
+
 
 .box {
     display: flex;
 }
 
 .info {
-
-    width: 50%;
-
-    text-align: center;
+  font-size: medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    text-align: left;
 }
 
 
 
 .text-content {
-    width: 50%; /* Set the width of the text column to 50% */
+
+    width: 40%; /* Set the width of the text column to 50% */
     padding-left: 20px;
 }
 
+.row{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 159, 250);
+ 
+  
+}
+
 .rectangle {
-    background-color: #537895;
-    width: 90%;
-    height: 50px;
+  padding: 5px;
+  /* padding-left: 10px; */
+    
+    background-color:#e0d1ff;
+    width: 80%;
+    height: 20px;
     margin-bottom: 5%;
     border-radius: 10px;
 }
 
-.row {
 
-}
 body{
   margin: 0;
 }
 .First{
   float: left;
-  font-weight: bold !important;
+  font-weight:bold;
+
     position: absolute;
     left: 2%; /* Position it at the extreme left */
     top: 0%;
-    font-size: 200% !important;
+    font-size: 130% !important;
 }
 .rectangle3 {
-  background-color: #537895;
-  width: 90%;
-  height: 140px;
-  margin: 1%;
+  padding: 5px;
+  background-color: #e3d1ff;
+  width: 80%;
+  height: 200px;
+  margin-bottom: 5%;
   border-radius: 10px;
 }
 button{
-  margin-top: 30px;
-  margin-left: 5%;
+  align-items: center;
+  height: 40px;
+  font-size:large ;
+  width: 150px;
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background:linear-gradient(to right,#b878de,#518ac7 );
   width: 15%;
+  border-radius: 10%;
+}
+img
+{
+  width: 50px;
+  height: 50px;
 }
 
-.icon{
+/* .icon{
+  size: 0px;
+  vertical-align:bottom;
+  max-width: 10%;
+
   margin-top:3px;
-}
+} */
 .info{
   text-align: left;
 
@@ -88,5 +119,12 @@ button{
   margin-left: 20%;
 }
 .details{
+  font-size:130%;
+  text-align: left;
+  
   margin-left: 10%;
+  padding-left: 10px;
+  
 }
+
+
