@@ -1,0 +1,54 @@
+/* CSS for the navigation bar */
+.navbar_about {
+
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.navbar_about a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 150%;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+body{
+  margin: 0;
+}
+.First{
+  float: left;
+  font-weight: bold !important;
+    position: absolute;
+    left: 2%; /* Position it at the extreme left */
+    top: 0%;
+    font-size: 200% !important;
+}
+
+/* Change link color when hovered over */
+
+
+.First{
+  float: left;
+}
+
+body{
+  background: linear-gradient(to right, #204D8D,#5ACAA0);
+}
+
+.main{
+  padding-top: 10%;
+  padding-left: 8%;
+  color: white;
+
+}
+h1{
+  font-size: 450%;
+}
+h2{
+  font-size: 250%;
+  padding-bottom: 3%;
+}

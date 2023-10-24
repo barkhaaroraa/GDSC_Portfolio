@@ -1,0 +1,59 @@
+.navbar_about {
+    background: linear-gradient(to right,#FAD0C4, #FAD0C4, #FFD1FF);
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.navbar_about a {
+    float: right;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 150%;
+    font-family: monospace;
+    text-decoration: none;
+}
+.heading{
+  text-align: center;
+  font-size: 310%;
+  color:#4E4376;
+}
+.First{
+  float: left;
+  font-weight: bold !important;
+    position: absolute;
+    left: 2%; /* Position it at the extreme left */
+    top: 0%;
+    font-size: 200% !important;}
+
+body{
+  margin: 0;
+}
+
+/* Basic styling for the card layout */
+.card-row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 1% 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #007acc;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
