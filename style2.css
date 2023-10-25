@@ -68,3 +68,6 @@ body{
     top: 0%;
     font-size: 200% !important;
 }
+a:hover {
+    text-decoration: underline;
+}

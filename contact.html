@@ -5,13 +5,14 @@
 </head>
 <body>
 
+
 <div class="navbar_about">
   <a class="First" href="#">Walter White</a>
-    <a href="#">Home</a>
-    <a href="#">About</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="#">Services</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Contact</a>
+    <a href="projects.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
 </div>
 <h1 class="About">Contact Me</h1>
 <div class="box">
@@ -28,15 +29,27 @@
     <h2>Let's Connect</h2>
 
     <div class="row">
-      <div class="rectangle">Name</div>
-      <div class="rectangle">Email ID</div>
+      <div class="rectangle">
+        <input type="text" id="name" class="input-field" placeholder="Enter your name">
+      </div>
+      
     </div>
     <div class="row">
-      <div class="rectangle3">Message</div>
-      <button type="submit">Send</button>
+      <div class="rectangle">
+        <input type="email" id="email" class="input-field" placeholder="Enter your email">
+      </div>
+      
     </div>
-
+    <div class="row">
+      <div class="rectangle3">
+        <textarea id="message" class="input-field" placeholder="Type your message"></textarea>
+      </div>
+      
+    </div>
+    <button type="button" id="sendButton">Send</button>
   </div>
 </div>
+<script src="script.js"></script>
+
   </body>
   </html>
