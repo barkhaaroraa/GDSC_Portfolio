@@ -52,3 +52,6 @@ h2{
   font-size: 250%;
   padding-bottom: 3%;
 }
+a:hover {
+  text-decoration: underline;
+}

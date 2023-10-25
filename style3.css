@@ -103,13 +103,13 @@ img
   height: 50px;
 }
 
-/* .icon{
-  size: 0px;
-  vertical-align:bottom;
-  max-width: 10%;
-
-  margin-top:3px;
-} */
+.icon{
+  .icon {
+    vertical-align: middle;
+    max-width: 10%;
+    margin-top: 3px;
+}
+} 
 .info{
   text-align: left;
 
@@ -126,5 +126,7 @@ img
   padding-left: 10px;
   
 }
-
+a:hover {
+  text-decoration: underline;
+}
 
