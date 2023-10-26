@@ -104,6 +104,11 @@ button{
   width: 15%;
   border-radius: 10%;
 }
+
+li
+{
+  list-style-type: none;
+}
 img
 {
   width: 50px;
@@ -137,3 +142,40 @@ a:hover {
   text-decoration: underline;
 }
 
+
+@media screen and (max-width: 768px) {
+  .navbar_about a {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0;
+  }
+
+  li{
+    font-size: 10px;
+  }
+
+  .box {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .text-content {
+      width: 100%;
+  }
+
+  .First {
+      position: static;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .rectangle, .rectangle3 {
+      width: 90%;
+  }
+
+  .details {
+      margin-left: 0;
+  }
+}
