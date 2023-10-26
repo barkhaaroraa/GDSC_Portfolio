@@ -11,7 +11,7 @@
     text-align: center;
     padding: 20px 20px;
     font-size: 150%;
-    font-family: monospace;
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
 }
 .heading{
@@ -21,7 +21,7 @@
 }
 .First{
   float: left;
-  font-weight: bold !important;
+  
     position: absolute;
     left: 2%; /* Position it at the extreme left */
     top: 0%;

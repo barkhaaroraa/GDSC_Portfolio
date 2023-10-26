@@ -6,14 +6,14 @@
 }
 
 .navbar_about a {
-    float: right;
-    color: black;
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 100%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
+  float: right;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 150%;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
 }
 
 .About {
@@ -74,15 +74,15 @@
 body{
   margin: 0;
 }
-.First{
-  float: left;
-  font-weight:bold;
 
-    position: absolute;
-    left: 2%; /* Position it at the extreme left */
-    top: 0%;
-    font-size: 130% !important;
+.First{
+    
+  position: absolute;
+  left: 2%; /* Position it at the extreme left */
+  top: 0%;
+  font-size: 200% !important;
 }
+
 .rectangle3 {
   padding: 5px;
   background-color: #e3d1ff;

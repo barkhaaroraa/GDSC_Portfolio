@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+
     function navigateTo(page) {
         // Redirect to the specified page
         window.location.href = page;
@@ -28,5 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         
+    });
+    document.getElementById('sendButton').addEventListener('click', function() {
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
     });
 });
