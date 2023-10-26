@@ -56,4 +56,21 @@ a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar_about a {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0;
+  }
 
+  li{
+    font-size: 10px;
+  }
+  .First {
+      position: static;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}

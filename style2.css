@@ -74,28 +74,39 @@ a:hover {
 }
 
 
-@media (max-width: 600px) {
+
+@media screen and (max-width: 768px) {
     .navbar_about a {
-        float: none; 
+        float: none;
+        display: block;
         text-align: center;
-        width: 50%; 
-        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 0;
+    }
+  
+    li{
+      font-size: 10px;
+    }
+    .First {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
-    .info, .text-content {
-        background-color: #537895;
-        width: 60%; 
-        padding: 0 20px; 
+    img{
+    max-width: 60%;
+    height: 10%;
+    margin: 0 auto;
+    border-radius: 50%;
 
-    .rectangle {
-        width: 48%; 
     }
-}
 
-@media (max-width: 480px) {
-    .About {
-        font-size: 36px;
-        color: #FFD1FF; /* Decrease font size for smaller screens */
+    .text-content p
+    {
+        display: inline-flex;
+        width: 100%;
+        padding: 0;
+
     }
-}
+
 }
