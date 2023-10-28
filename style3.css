@@ -1,12 +1,8 @@
 /* CSS to style the About section */
 .navbar_about {
-  position: fixed;
-  padding-top: 0;
-  z-index: 1000;
-  top: 0;
-  width: 100%;
-  background: linear-gradient(to right,#FAD0C4, #FAD0C4, #FFD1FF);
-  overflow: hidden;
+    background: linear-gradient(to right, #FAD0C4, #FAD0C4, #FFD1FF);
+    overflow: hidden;
+    padding-top: 0;
 }
 
 .navbar_about a {
@@ -79,16 +75,15 @@
 body{
   margin: 0;
   font-family:'Inter',sans-serif;
-  padding-top: 5%;
 }
 
 .First{
     
   position: absolute;
   left: 2%; /* Position it at the extreme left */
-  
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  font-weight: bolder !important;
+  top: 0%;
+  font-size: 200% !important;
+  top: -0.5%;
 }
 
 .rectangle3 {
@@ -105,7 +100,6 @@ button{
   font-size:large ;
   width: 150px;
   color: #ffffff;
-  margin-left: 35%;
   border-color: rgb(255, 255, 255);
   border-width: 2px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -135,8 +129,6 @@ img
   text-align: left;
 
 }
-
-
 .text {
   display: inline-block;
   text-align: center;
@@ -166,9 +158,6 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
-  body{
-    padding-top: 55%;
-  }
   .navbar_about a {
       float: none;
       display: block;
@@ -205,8 +194,8 @@ a:hover {
   }
 }
 .btn1{
-    
-    display: inline;
+
+    display: flex;
     justify-content: center;
     width: 500px;
 }
