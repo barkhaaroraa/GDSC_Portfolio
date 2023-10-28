@@ -1,56 +1,29 @@
 /* CSS for the navigation bar */
-.navbar_about {
-  position: fixed;
-  padding-top: 0;
-  z-index: 1000;
-  top: 0;
-  width: 100%;
-  
-  overflow: hidden;
-}
-
-.navbar_about a {
+.navbar a {
   float: right;
   color: black;
   font-weight: 400;
   text-align: center;
   padding: 20px 20px;
   font-size: 150%;
-  
-  text-decoration: none;
-}
-
-.textt{
   font-family:'Times New Roman', Times, serif;
-
+  text-decoration: none;
 }
 
 body{
   margin: 0;
   font-family:'Inter',sans-serif;
+  background: linear-gradient(to right, #204D8D,#5ACAA0);
 }
 .First{
-  float: left;
     position: absolute;
     left: 2%; /* Position it at the extreme left */
-    top: 0%;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder !important;
-}
-
-/* Change link color when hovered over */
-
-
-.First{
-  float: left;
-}
-
-body{
-  background: linear-gradient(to right, #204D8D,#5ACAA0);
+    top: -0.5%;
+    font-size: 200% !important;
 }
 
 .main{
-  padding-top: 10%;
+  padding-top: 13%;
   padding-left: 8%;
   color: white;
 
@@ -67,7 +40,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar_about a {
+  .navbar a {
       float: none;
       display: block;
       text-align: center;
@@ -82,8 +55,5 @@ a:hover {
       position: static;
       text-align: center;
       margin-bottom: 20px;
-  }
-  body{
-    padding-top: 50%;
   }
 }
