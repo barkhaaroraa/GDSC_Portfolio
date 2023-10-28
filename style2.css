@@ -1,8 +1,12 @@
 /* CSS to style the About section */
 .navbar_about {
-    background: linear-gradient(to right, #FAD0C4, #FAD0C4, #FFD1FF);
-    overflow: hidden;
+    position: fixed;
     padding-top: 0;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right,#FAD0C4, #FAD0C4, #FFD1FF);
+    overflow: hidden;
 }
 
 .navbar_about a {
@@ -12,8 +16,13 @@
     text-align: center;
     padding: 20px 20px;
     font-size: 150%;
-    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
+}
+.textt{
+
+    font-family:'Times New Roman', Times, serif;
+
+
 }
 
 .About {
@@ -21,6 +30,11 @@
     color: #4E4376;
     font-weight: 600;
     font-size: 48px;
+    font-family: 'Inter',sans-serif;
+
+}
+.boxes{
+    padding-bottom: 5%;
 }
 
 .box {
@@ -57,16 +71,22 @@ img {
 .row {
     display: flex;
 }
+
+p{
+    font-family:'Inter',sans-serif;
+}
 body{
   margin: 0;
-  font-family:'Inter',sans-serif;
+  padding-top: 5%;
 }
 .First{
     
     position: absolute;
     left: 2%; /* Position it at the extreme left */
     top: 0%;
-    font-size: 200% !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-weight: bolder !important;
 }
 a:hover {
     text-decoration: underline;
@@ -75,6 +95,10 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
+
+    body{
+        padding-top: 50%;
+    }
     .navbar_about a {
         float: none;
         display: block;
@@ -90,6 +114,7 @@ a:hover {
         position: static;
         text-align: center;
         margin-bottom: 20px;
+        font-weight: bolder !important;
     }
 
     img{

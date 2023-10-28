@@ -1,7 +1,16 @@
+
 .navbar_about {
+    position: fixed;
+    padding-top: 0;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
     background: linear-gradient(to right,#FAD0C4, #FAD0C4, #FFD1FF);
     overflow: hidden;
-    padding-top: 0;
+
+}
+h1{
+    font-family: 'Inter',sans-serif;
 }
 
 .navbar_about a {
@@ -11,8 +20,13 @@
     text-align: center;
     padding: 20px 20px;
     font-size: 150%;
-    font-family:'Times New Roman', Times, serif;
+    
     text-decoration: none;
+}
+
+.textt{
+    font-family:'Times New Roman', Times, serif;
+
 }
 .heading{
   text-align: center;
@@ -21,15 +35,19 @@
 }
 .First{
   float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder !important;
   
     position: absolute;
     left: 2%; /* Position it at the extreme left */
     top: 0%;
-    font-size: 200% !important;}
+}
 
 body{
+    padding-top: 5%;
+
   margin: 0;
-  font-family:'Inter',sans-serif;
+
 }
 
 /* Basic styling for the card layout */
@@ -61,6 +79,7 @@ body{
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+
 }
 
 .card-front,
@@ -73,6 +92,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+}
+
+.card-front p{
+  padding-left: 20px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .card-back {
@@ -95,6 +120,9 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
+    body{
+        padding-top: 50%;
+    }
     .navbar_about a {
         float: none;
         display: block;
@@ -121,8 +149,21 @@ a:hover {
 
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px) {
+    body{
+        padding-top: 55%;
+    }
     .card{
         height: 300px;
     }
+@media screen and (max-width:500px){
+    body{
+        padding-top: 70%;
+    }
+    .card{
+        height: 300px;
+    }
+
+    
+}
 }
