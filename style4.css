@@ -1,5 +1,5 @@
 
-.navbar_about {
+.navbar {
     position: fixed;
     padding-top: 0;
     z-index: 1000;
@@ -13,21 +13,16 @@ h1{
     font-family: 'Inter',sans-serif;
 }
 
-.navbar_about a {
+.navbar a {
     float: right;
     color: black;
     font-weight: 400;
     text-align: center;
     padding: 20px 20px;
     font-size: 150%;
-    
     text-decoration: none;
 }
 
-.textt{
-    font-family:'Times New Roman', Times, serif;
-
-}
 .heading{
   text-align: center;
   font-size: 310%;
@@ -35,12 +30,10 @@ h1{
 }
 .First{
   float: left;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder !important;
-  
     position: absolute;
     left: 2%; /* Position it at the extreme left */
-    top: 0%;
+    top: -6%;
+    font-size: 200% !important;
 }
 
 body{
